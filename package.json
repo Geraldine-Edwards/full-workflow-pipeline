@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-pages-starter",
+  "version": "0.1.0",
+  "description": "Vite app that renders figlet ASCII text and deploys with GitHub Actions.",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "figlet": "^1.8.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^22.1.0"
+  }
+}
