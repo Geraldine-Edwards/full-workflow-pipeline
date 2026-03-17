@@ -5,8 +5,10 @@ name: Full Workflow Pipeline
 on:
   push:
     branches: [ "main" ]
+  # Allow manual triggering of the workflow from the GitHub UI
   workflow_dispatch:
 
+# Permissions are required for the deploy step to work. The test and build steps only need read permissions, but the deploy step needs write permissions for pages and id-token.
 permissions:
   contents: read
   pages: write
