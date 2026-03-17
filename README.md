@@ -22,7 +22,7 @@ npm run build
 ```
 
 ### File guide
-- `.github/workflows/pages.yml`: CI/CD workflow for test, build, and GitHub Pages deploy.
+- `.github/workflows/full-workflow.yml`: CI/CD workflow for test, build, and GitHub Pages deploy.
 - `index.html`: Editor controls and preview container.
 - `src/main.js`: UI controller and live preview event wiring.
 - `src/ascii.js`: Figlet/cowsay helper functions and option loading.
